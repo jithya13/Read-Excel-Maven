@@ -8,7 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcelDemo {
-//new project from git
+//new project from github
 	public static void main(String[] args) throws IOException {
 	FileInputStream f= new FileInputStream(new File("D:\\Student.xlsx"));
      (XSSFWorkbook wb = new XSSFWorkbook(f)) 
